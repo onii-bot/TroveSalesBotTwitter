@@ -54,7 +54,7 @@ def get_meta_from_mint():
             "first": 200,
             "saleOrderBy": "timestamp",
             "saleFilter": {
-                "collection": "0xdabf2de52037b517097fd999c173c447784806b2",
+                "collection": config['collection'],
                 "timestamp_gte": 1656753149
             },
             "orderDirection": "desc",
